@@ -1,0 +1,6 @@
+Place mkcd.sh file in /bin and give 755 permission(ususal permissions for commands)
+Create an alias as follows :
+      alias mkdircd=". mkcd.sh"
+
+Usage : 
+  mkdircd test_dir
