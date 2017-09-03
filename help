@@ -1,6 +1,9 @@
-Place mkcd.sh file in /bin and give 755 permission(ususal permissions for commands)
+Place "mkcd.sh" file in /bin and give 755 permission(ususal permissions for commands)
 Create an alias as follows :
       alias mkdircd=". mkcd.sh"
-
+Understanding the alias mkdircd
+If you observe there is a .(dot/period) mentioned before the shell script. That tells us that please execute it in the same shell
+as the cd command executes in a sub shell and once the command is executed it comes out to the main shell.
+      
 Usage : 
   mkdircd test_dir
